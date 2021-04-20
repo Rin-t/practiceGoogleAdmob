@@ -1,0 +1,753 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2421B477262E9524009A3D41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2421B476262E9524009A3D41 /* AppDelegate.swift */; };
+		2421B479262E9524009A3D41 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2421B478262E9524009A3D41 /* SceneDelegate.swift */; };
+		2421B47B262E9524009A3D41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2421B47A262E9524009A3D41 /* ViewController.swift */; };
+		2421B47E262E9524009A3D41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2421B47C262E9524009A3D41 /* Main.storyboard */; };
+		2421B480262E9526009A3D41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2421B47F262E9526009A3D41 /* Assets.xcassets */; };
+		2421B483262E9526009A3D41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2421B481262E9526009A3D41 /* LaunchScreen.storyboard */; };
+		2421B48E262E9526009A3D41 /* practiceGoogleAddmobTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2421B48D262E9526009A3D41 /* practiceGoogleAddmobTests.swift */; };
+		2421B499262E9526009A3D41 /* practiceGoogleAddmobUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2421B498262E9526009A3D41 /* practiceGoogleAddmobUITests.swift */; };
+		5D792D34BD7B64359E60D877 /* Pods_practiceGoogleAddmob.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64AE21212E1D4CEEA4AEA5DB /* Pods_practiceGoogleAddmob.framework */; };
+		8643C05363EE98F04C0F1C46 /* Pods_practiceGoogleAddmob_practiceGoogleAddmobUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D41544EB8DA1D8389BBBD2F /* Pods_practiceGoogleAddmob_practiceGoogleAddmobUITests.framework */; };
+		8A5F493A29380B72686367FA /* Pods_practiceGoogleAddmobTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53B991F2B573956A674E1BFA /* Pods_practiceGoogleAddmobTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2421B48A262E9526009A3D41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2421B46B262E9524009A3D41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2421B472262E9524009A3D41;
+			remoteInfo = practiceGoogleAddmob;
+		};
+		2421B495262E9526009A3D41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2421B46B262E9524009A3D41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2421B472262E9524009A3D41;
+			remoteInfo = practiceGoogleAddmob;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0FA7621596B5E49BDE0DAFE8 /* Pods-practiceGoogleAddmob.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-practiceGoogleAddmob.debug.xcconfig"; path = "Target Support Files/Pods-practiceGoogleAddmob/Pods-practiceGoogleAddmob.debug.xcconfig"; sourceTree = "<group>"; };
+		2421B473262E9524009A3D41 /* practiceGoogleAddmob.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = practiceGoogleAddmob.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2421B476262E9524009A3D41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2421B478262E9524009A3D41 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2421B47A262E9524009A3D41 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2421B47D262E9524009A3D41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2421B47F262E9526009A3D41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2421B482262E9526009A3D41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2421B484262E9526009A3D41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2421B489262E9526009A3D41 /* practiceGoogleAddmobTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = practiceGoogleAddmobTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2421B48D262E9526009A3D41 /* practiceGoogleAddmobTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = practiceGoogleAddmobTests.swift; sourceTree = "<group>"; };
+		2421B48F262E9526009A3D41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2421B494262E9526009A3D41 /* practiceGoogleAddmobUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = practiceGoogleAddmobUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2421B498262E9526009A3D41 /* practiceGoogleAddmobUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = practiceGoogleAddmobUITests.swift; sourceTree = "<group>"; };
+		2421B49A262E9526009A3D41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5137DB5122FA2ABEEBED6242 /* Pods-practiceGoogleAddmob.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-practiceGoogleAddmob.release.xcconfig"; path = "Target Support Files/Pods-practiceGoogleAddmob/Pods-practiceGoogleAddmob.release.xcconfig"; sourceTree = "<group>"; };
+		53B991F2B573956A674E1BFA /* Pods_practiceGoogleAddmobTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_practiceGoogleAddmobTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		636E5C39F2B97A6D7842BDAA /* Pods-practiceGoogleAddmob-practiceGoogleAddmobUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-practiceGoogleAddmob-practiceGoogleAddmobUITests.debug.xcconfig"; path = "Target Support Files/Pods-practiceGoogleAddmob-practiceGoogleAddmobUITests/Pods-practiceGoogleAddmob-practiceGoogleAddmobUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		64AE21212E1D4CEEA4AEA5DB /* Pods_practiceGoogleAddmob.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_practiceGoogleAddmob.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D41544EB8DA1D8389BBBD2F /* Pods_practiceGoogleAddmob_practiceGoogleAddmobUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_practiceGoogleAddmob_practiceGoogleAddmobUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92E740D712F134DA11497D54 /* Pods-practiceGoogleAddmobTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-practiceGoogleAddmobTests.release.xcconfig"; path = "Target Support Files/Pods-practiceGoogleAddmobTests/Pods-practiceGoogleAddmobTests.release.xcconfig"; sourceTree = "<group>"; };
+		AAAE85396765D426B571C8B2 /* Pods-practiceGoogleAddmob-practiceGoogleAddmobUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-practiceGoogleAddmob-practiceGoogleAddmobUITests.release.xcconfig"; path = "Target Support Files/Pods-practiceGoogleAddmob-practiceGoogleAddmobUITests/Pods-practiceGoogleAddmob-practiceGoogleAddmobUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FC3585141919116624DAAB7E /* Pods-practiceGoogleAddmobTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-practiceGoogleAddmobTests.debug.xcconfig"; path = "Target Support Files/Pods-practiceGoogleAddmobTests/Pods-practiceGoogleAddmobTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2421B470262E9524009A3D41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D792D34BD7B64359E60D877 /* Pods_practiceGoogleAddmob.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2421B486262E9526009A3D41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A5F493A29380B72686367FA /* Pods_practiceGoogleAddmobTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2421B491262E9526009A3D41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8643C05363EE98F04C0F1C46 /* Pods_practiceGoogleAddmob_practiceGoogleAddmobUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2421B46A262E9524009A3D41 = {
+			isa = PBXGroup;
+			children = (
+				2421B475262E9524009A3D41 /* practiceGoogleAddmob */,
+				2421B48C262E9526009A3D41 /* practiceGoogleAddmobTests */,
+				2421B497262E9526009A3D41 /* practiceGoogleAddmobUITests */,
+				2421B474262E9524009A3D41 /* Products */,
+				73E3EC9B4BD101D1C756EAA1 /* Pods */,
+				2BCD0A75A2CCBBDCD4A0D57A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2421B474262E9524009A3D41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2421B473262E9524009A3D41 /* practiceGoogleAddmob.app */,
+				2421B489262E9526009A3D41 /* practiceGoogleAddmobTests.xctest */,
+				2421B494262E9526009A3D41 /* practiceGoogleAddmobUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2421B475262E9524009A3D41 /* practiceGoogleAddmob */ = {
+			isa = PBXGroup;
+			children = (
+				2421B476262E9524009A3D41 /* AppDelegate.swift */,
+				2421B478262E9524009A3D41 /* SceneDelegate.swift */,
+				2421B47A262E9524009A3D41 /* ViewController.swift */,
+				2421B47C262E9524009A3D41 /* Main.storyboard */,
+				2421B47F262E9526009A3D41 /* Assets.xcassets */,
+				2421B481262E9526009A3D41 /* LaunchScreen.storyboard */,
+				2421B484262E9526009A3D41 /* Info.plist */,
+			);
+			path = practiceGoogleAddmob;
+			sourceTree = "<group>";
+		};
+		2421B48C262E9526009A3D41 /* practiceGoogleAddmobTests */ = {
+			isa = PBXGroup;
+			children = (
+				2421B48D262E9526009A3D41 /* practiceGoogleAddmobTests.swift */,
+				2421B48F262E9526009A3D41 /* Info.plist */,
+			);
+			path = practiceGoogleAddmobTests;
+			sourceTree = "<group>";
+		};
+		2421B497262E9526009A3D41 /* practiceGoogleAddmobUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2421B498262E9526009A3D41 /* practiceGoogleAddmobUITests.swift */,
+				2421B49A262E9526009A3D41 /* Info.plist */,
+			);
+			path = practiceGoogleAddmobUITests;
+			sourceTree = "<group>";
+		};
+		2BCD0A75A2CCBBDCD4A0D57A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64AE21212E1D4CEEA4AEA5DB /* Pods_practiceGoogleAddmob.framework */,
+				7D41544EB8DA1D8389BBBD2F /* Pods_practiceGoogleAddmob_practiceGoogleAddmobUITests.framework */,
+				53B991F2B573956A674E1BFA /* Pods_practiceGoogleAddmobTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		73E3EC9B4BD101D1C756EAA1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0FA7621596B5E49BDE0DAFE8 /* Pods-practiceGoogleAddmob.debug.xcconfig */,
+				5137DB5122FA2ABEEBED6242 /* Pods-practiceGoogleAddmob.release.xcconfig */,
+				636E5C39F2B97A6D7842BDAA /* Pods-practiceGoogleAddmob-practiceGoogleAddmobUITests.debug.xcconfig */,
+				AAAE85396765D426B571C8B2 /* Pods-practiceGoogleAddmob-practiceGoogleAddmobUITests.release.xcconfig */,
+				FC3585141919116624DAAB7E /* Pods-practiceGoogleAddmobTests.debug.xcconfig */,
+				92E740D712F134DA11497D54 /* Pods-practiceGoogleAddmobTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2421B472262E9524009A3D41 /* practiceGoogleAddmob */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2421B49D262E9526009A3D41 /* Build configuration list for PBXNativeTarget "practiceGoogleAddmob" */;
+			buildPhases = (
+				19DDAC744B7E1B4CE2126CCC /* [CP] Check Pods Manifest.lock */,
+				2421B46F262E9524009A3D41 /* Sources */,
+				2421B470262E9524009A3D41 /* Frameworks */,
+				2421B471262E9524009A3D41 /* Resources */,
+				C93876C464BC5015B4954873 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = practiceGoogleAddmob;
+			productName = practiceGoogleAddmob;
+			productReference = 2421B473262E9524009A3D41 /* practiceGoogleAddmob.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2421B488262E9526009A3D41 /* practiceGoogleAddmobTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2421B4A0262E9526009A3D41 /* Build configuration list for PBXNativeTarget "practiceGoogleAddmobTests" */;
+			buildPhases = (
+				B3EE011D90BEC2ABA919C638 /* [CP] Check Pods Manifest.lock */,
+				2421B485262E9526009A3D41 /* Sources */,
+				2421B486262E9526009A3D41 /* Frameworks */,
+				2421B487262E9526009A3D41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2421B48B262E9526009A3D41 /* PBXTargetDependency */,
+			);
+			name = practiceGoogleAddmobTests;
+			productName = practiceGoogleAddmobTests;
+			productReference = 2421B489262E9526009A3D41 /* practiceGoogleAddmobTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2421B493262E9526009A3D41 /* practiceGoogleAddmobUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2421B4A3262E9526009A3D41 /* Build configuration list for PBXNativeTarget "practiceGoogleAddmobUITests" */;
+			buildPhases = (
+				AA54D1B70604CB5C2B79A015 /* [CP] Check Pods Manifest.lock */,
+				2421B490262E9526009A3D41 /* Sources */,
+				2421B491262E9526009A3D41 /* Frameworks */,
+				2421B492262E9526009A3D41 /* Resources */,
+				09122C294F853BD53BB26E55 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2421B496262E9526009A3D41 /* PBXTargetDependency */,
+			);
+			name = practiceGoogleAddmobUITests;
+			productName = practiceGoogleAddmobUITests;
+			productReference = 2421B494262E9526009A3D41 /* practiceGoogleAddmobUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2421B46B262E9524009A3D41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					2421B472262E9524009A3D41 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					2421B488262E9526009A3D41 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 2421B472262E9524009A3D41;
+					};
+					2421B493262E9526009A3D41 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 2421B472262E9524009A3D41;
+					};
+				};
+			};
+			buildConfigurationList = 2421B46E262E9524009A3D41 /* Build configuration list for PBXProject "practiceGoogleAddmob" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2421B46A262E9524009A3D41;
+			productRefGroup = 2421B474262E9524009A3D41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2421B472262E9524009A3D41 /* practiceGoogleAddmob */,
+				2421B488262E9526009A3D41 /* practiceGoogleAddmobTests */,
+				2421B493262E9526009A3D41 /* practiceGoogleAddmobUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2421B471262E9524009A3D41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2421B483262E9526009A3D41 /* LaunchScreen.storyboard in Resources */,
+				2421B480262E9526009A3D41 /* Assets.xcassets in Resources */,
+				2421B47E262E9524009A3D41 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2421B487262E9526009A3D41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2421B492262E9526009A3D41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09122C294F853BD53BB26E55 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-practiceGoogleAddmob-practiceGoogleAddmobUITests/Pods-practiceGoogleAddmob-practiceGoogleAddmobUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-practiceGoogleAddmob-practiceGoogleAddmobUITests/Pods-practiceGoogleAddmob-practiceGoogleAddmobUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-practiceGoogleAddmob-practiceGoogleAddmobUITests/Pods-practiceGoogleAddmob-practiceGoogleAddmobUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		19DDAC744B7E1B4CE2126CCC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-practiceGoogleAddmob-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA54D1B70604CB5C2B79A015 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-practiceGoogleAddmob-practiceGoogleAddmobUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3EE011D90BEC2ABA919C638 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-practiceGoogleAddmobTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C93876C464BC5015B4954873 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-practiceGoogleAddmob/Pods-practiceGoogleAddmob-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-practiceGoogleAddmob/Pods-practiceGoogleAddmob-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-practiceGoogleAddmob/Pods-practiceGoogleAddmob-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2421B46F262E9524009A3D41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2421B47B262E9524009A3D41 /* ViewController.swift in Sources */,
+				2421B477262E9524009A3D41 /* AppDelegate.swift in Sources */,
+				2421B479262E9524009A3D41 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2421B485262E9526009A3D41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2421B48E262E9526009A3D41 /* practiceGoogleAddmobTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2421B490262E9526009A3D41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2421B499262E9526009A3D41 /* practiceGoogleAddmobUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2421B48B262E9526009A3D41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2421B472262E9524009A3D41 /* practiceGoogleAddmob */;
+			targetProxy = 2421B48A262E9526009A3D41 /* PBXContainerItemProxy */;
+		};
+		2421B496262E9526009A3D41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2421B472262E9524009A3D41 /* practiceGoogleAddmob */;
+			targetProxy = 2421B495262E9526009A3D41 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2421B47C262E9524009A3D41 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2421B47D262E9524009A3D41 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2421B481262E9526009A3D41 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2421B482262E9526009A3D41 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2421B49B262E9526009A3D41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2421B49C262E9526009A3D41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2421B49E262E9526009A3D41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FA7621596B5E49BDE0DAFE8 /* Pods-practiceGoogleAddmob.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P6K8M6RQ2W;
+				INFOPLIST_FILE = practiceGoogleAddmob/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.r.t.astronomy.practiceGoogleAddmob;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2421B49F262E9526009A3D41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5137DB5122FA2ABEEBED6242 /* Pods-practiceGoogleAddmob.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P6K8M6RQ2W;
+				INFOPLIST_FILE = practiceGoogleAddmob/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.r.t.astronomy.practiceGoogleAddmob;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2421B4A1262E9526009A3D41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC3585141919116624DAAB7E /* Pods-practiceGoogleAddmobTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P6K8M6RQ2W;
+				INFOPLIST_FILE = practiceGoogleAddmobTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.r.t.astronomy.practiceGoogleAddmobTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/practiceGoogleAddmob.app/practiceGoogleAddmob";
+			};
+			name = Debug;
+		};
+		2421B4A2262E9526009A3D41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92E740D712F134DA11497D54 /* Pods-practiceGoogleAddmobTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P6K8M6RQ2W;
+				INFOPLIST_FILE = practiceGoogleAddmobTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.r.t.astronomy.practiceGoogleAddmobTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/practiceGoogleAddmob.app/practiceGoogleAddmob";
+			};
+			name = Release;
+		};
+		2421B4A4262E9526009A3D41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 636E5C39F2B97A6D7842BDAA /* Pods-practiceGoogleAddmob-practiceGoogleAddmobUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P6K8M6RQ2W;
+				INFOPLIST_FILE = practiceGoogleAddmobUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.r.t.astronomy.practiceGoogleAddmobUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = practiceGoogleAddmob;
+			};
+			name = Debug;
+		};
+		2421B4A5262E9526009A3D41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAAE85396765D426B571C8B2 /* Pods-practiceGoogleAddmob-practiceGoogleAddmobUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P6K8M6RQ2W;
+				INFOPLIST_FILE = practiceGoogleAddmobUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.r.t.astronomy.practiceGoogleAddmobUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = practiceGoogleAddmob;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2421B46E262E9524009A3D41 /* Build configuration list for PBXProject "practiceGoogleAddmob" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2421B49B262E9526009A3D41 /* Debug */,
+				2421B49C262E9526009A3D41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2421B49D262E9526009A3D41 /* Build configuration list for PBXNativeTarget "practiceGoogleAddmob" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2421B49E262E9526009A3D41 /* Debug */,
+				2421B49F262E9526009A3D41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2421B4A0262E9526009A3D41 /* Build configuration list for PBXNativeTarget "practiceGoogleAddmobTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2421B4A1262E9526009A3D41 /* Debug */,
+				2421B4A2262E9526009A3D41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2421B4A3262E9526009A3D41 /* Build configuration list for PBXNativeTarget "practiceGoogleAddmobUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2421B4A4262E9526009A3D41 /* Debug */,
+				2421B4A5262E9526009A3D41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2421B46B262E9524009A3D41 /* Project object */;
+}
